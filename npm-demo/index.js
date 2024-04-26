@@ -34,3 +34,38 @@ var underscore = require('underscore');
 
 ///Video no: 6 - NPM Packages and Source Control
 // Since it contains so many dependency if we add in our application and the size of node_modules folder will grow significantly. SO, we should exclude node_modules folder from our source control repository. 
+
+
+///Video no: 7 - Sementic Versioning
+// Sementic versioning is also called SemVer. In sementic versioning, the version of a Node package has three components,  Suppose, version is ^4.13.6 -->
+// ^ this character at the starting of the version is called carot character that tell npm that we're interested in any version of Mongoose as long as the major version is 4. 
+// The first number is what we call the major version.
+//second is called minor version.
+// And the third one is what we call the patch version or patch realese, ehich is used for bug fixes.
+
+///Video no: 8 - Listing the Installed Package
+// npm list ---> is the command to  get  all the installed dependecies list and their exact version. It show all the dependencies and their dependencies. 
+// But if you want to get only dependencies of application. Not the dependencies of these other packages, then you run ---> npm list --depth=0
+
+
+///Video no: 9 - Viewing Registery Info for a Package
+// if you want to learn about a package you an search package name.
+// you can run ---> npm view <package name> it show you package.json file of that npm package.  Or
+// you can run ---> npm view <package name> dependencies. to get only dependencies of that package
+
+
+///Video no: 10 -Installing a Specific Version of a Package
+
+///Video no: 11 - Dev Dependencies
+// npm i jshint --save-dev ---> to install dependencies as dev-dependency
+
+
+///Video no: 12 -   Uninsatalling a Package 
+// run npm un mongoose ---> to uninstall a package.
+
+
+
+
+///Video no: 10 -Updating Local Packages
+
+

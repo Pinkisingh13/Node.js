@@ -128,6 +128,7 @@
 
 
 /// ---- Section 2 -> NODE PACKAGE MANAGER ----
+// section 2 is started in npm-demo/index.js folder.
 
  
 
